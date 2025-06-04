@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a12f2f6-78c2-4119-a5e1-a7e8b66fc3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/course_service.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gprc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_course_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_course_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_service.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/api_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/fakers.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/fakers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     "Python.grpc_course_client.executor": "Run",
     "Python.grpc_course_server.executor": "Run",
     "Python.grpc_server.executor": "Run",
+    "Python.httpx_update_user.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
