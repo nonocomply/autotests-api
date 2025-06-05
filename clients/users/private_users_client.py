@@ -27,7 +27,7 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get(f"/api/v1/users{user_id}")
+        return self.get(f"/api/v1/users/{user_id}")
 
     def update_user_api(
         self, user_id: str, request: UpdateUserRequestSchema
