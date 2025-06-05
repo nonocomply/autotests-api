@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a12f2f6-78c2-4119-a5e1-a7e8b66fc3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_course.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_create_exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_client_get_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/public_http_builder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/authentication/authentication_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/authentication/authentication_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/users/private_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/private_users_client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/users/public_users_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/users/public_users_client.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,18 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.gprc_client.executor": "Run",
-    "Python.grpc_course_client.executor": "Run",
-    "Python.grpc_course_server.executor": "Run",
-    "Python.grpc_server.executor": "Run",
-    "Python.httpx_update_user.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.api_client_get_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gprc_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_course_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_course_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_update_user.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.black.configuration.BlackFormatterConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
