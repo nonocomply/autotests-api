@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a12f2f6-78c2-4119-a5e1-a7e8b66fc3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pytest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/errors_schema.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/files/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/files/test_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/private_http_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/private_http_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/files/files_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_fixtures.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pytest/test_fixtures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/users/test_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/assertions/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_authentication.test_login.executor": "Run",
+    "Python tests.Python tests for test_files.TestFiles.executor": "Run",
+    "Python tests.Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id.executor": "Run",
     "Python tests.Python tests for test_user.test_create_user.executor": "Run",
     "Python tests.Python tests in test_fixtures.py.executor": "Run",
     "Python tests.Python tests in test_user.py.executor": "Run",
@@ -64,7 +63,7 @@
     "Python.pydantic_json_schema_get_user.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +73,7 @@
       <recent name="C:\Users\nocomply\PycharmProjects\autotests-api\tests\pytest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.private_http_builder">
+  <component name="RunManager" selected="Python tests.Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id">
     <configuration name="fakers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
@@ -119,58 +118,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.authentication.test_authentication.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_files.TestFiles" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.authentication.test_authentication.test_login&quot;" />
+      <option name="_new_target" value="&quot;test_files.TestFiles&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.users.test_user.test_create_user" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_files.TestFiles.test_delete_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.users.test_user.test_create_user&quot;" />
+      <option name="_new_target" value="&quot;test_files.TestFiles.test_delete_file&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_fixtures.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-api" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/pytest/test_fixtures.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_files.TestFiles.test_get_file_with_incorrect_file_id&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id" />
+        <item itemvalue="Python tests.Python tests for test_files.TestFiles.test_delete_file" />
+        <item itemvalue="Python tests.Python tests for test_files.TestFiles" />
         <item itemvalue="Python.private_http_builder" />
         <item itemvalue="Python.fakers" />
-        <item itemvalue="Python tests.Python tests for tests.authentication.test_authentication.test_login" />
-        <item itemvalue="Python tests.Python tests in test_fixtures.py" />
-        <item itemvalue="Python tests.Python tests for tests.users.test_user.test_create_user" />
       </list>
     </recent_temporary>
   </component>

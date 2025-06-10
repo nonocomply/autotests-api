@@ -32,5 +32,13 @@ class CreateFileResponseSchema(BaseModel):
     file: FileSchema
 
 
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры запроса получения файла.
+    """
+
+    file: FileSchema
+
+
 if __name__ == "__main__":
     pass
