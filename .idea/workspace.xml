@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a12f2f6-78c2-4119-a5e1-a7e8b66fc3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clients/errors_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/files/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/files/test_files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/courses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/files/files_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/files/files_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/courses/courses_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixtures/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/assertions/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/assertions/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,32 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_authentication.test_login.executor": "Run",
-    "Python tests.Python tests for test_files.TestFiles.executor": "Run",
-    "Python tests.Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id.executor": "Run",
-    "Python tests.Python tests for test_user.test_create_user.executor": "Run",
-    "Python tests.Python tests in test_fixtures.py.executor": "Run",
-    "Python tests.Python tests in test_user.py.executor": "Run",
-    "Python.api_client_create_course.executor": "Run",
-    "Python.api_client_create_exercise.executor": "Run",
-    "Python.api_client_get_user.executor": "Run",
-    "Python.fakers.executor": "Run",
-    "Python.gprc_client.executor": "Run",
-    "Python.grpc_course_client.executor": "Run",
-    "Python.grpc_course_server.executor": "Run",
-    "Python.grpc_server.executor": "Run",
-    "Python.httpx_update_user.executor": "Run",
-    "Python.private_http_builder.executor": "Run",
-    "Python.pydantic_basics.executor": "Run",
-    "Python.pydantic_json_schema_create_user.executor": "Run",
-    "Python.pydantic_json_schema_get_user.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_authentication.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_files.TestFiles.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_files.TestFiles.test_get_file_with_incorrect_file_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user.test_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_fixtures.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_client_create_course.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_client_create_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.api_client_get_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fakers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gprc_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_course_client.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_course_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.grpc_server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.httpx_update_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.private_http_builder.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_json_schema_create_user.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pydantic_json_schema_get_user.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nocomply\PycharmProjects\autotests-api\tests\users" />

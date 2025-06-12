@@ -47,7 +47,7 @@ class CoursesClient(APIClient):
         """
         return self.post("/api/v1/courses", json=request.model_dump(by_alias=True))
 
-    def update_course(
+    def update_course_api(
         self, course_id: str, request: UpdateCourseRequestSchema
     ) -> Response:
         """

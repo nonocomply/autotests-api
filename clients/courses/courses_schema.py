@@ -19,6 +19,7 @@ class CourseSchema(BaseModel):
 
 
 class GetCoursesQuerySchema(BaseModel):
+    model_config = ConfigDict(populate_by_name=True)
     user_id: str = Field(alias="userId")
 
 
@@ -48,7 +49,16 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(alias="minScore", default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.sentence)
     estimated_time: str | None = Field(
-        alias="estimatedTime", default_factory=fake.estimated_time)
+        alias="estimatedTime", default_factory=fake.estimated_time
+    )
+
+
+class UpdateCourseResponseSchema(BaseModel):
+    course: CourseSchema
+
+
+class GetCoursesResponseSchema(BaseModel):
+    courses: list[CourseSchema]
 
 
 if __name__ == "__main__":
