@@ -5,6 +5,7 @@ from clients.exercises.exercises_client import ExercisesClient, get_exercises_cl
 from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     GetExerciseResponseSchema,
+    CreateExerciseResponseSchema,
 )
 from fixtures.courses import CourseFixture
 from fixtures.users import UserFixture
@@ -12,7 +13,7 @@ from fixtures.users import UserFixture
 
 class ExerciseFixture(BaseModel):
     request: CreateExerciseRequestSchema
-    response: GetExerciseResponseSchema
+    response: CreateExerciseResponseSchema
 
 
 @pytest.fixture
@@ -24,7 +25,7 @@ def exercises_client(function_user: UserFixture) -> ExercisesClient:
 def function_exercise(
     exercises_client: ExercisesClient, function_course: CourseFixture
 ) -> ExerciseFixture:
-    request = CreateExerciseRequestSchema(course_id=function_course.course.id)
+    request = CreateExerciseRequestSchema(course_id=function_course.response.course.id)
     response = exercises_client.create_exercise(request=request)
     return ExerciseFixture(request=request, response=response)
 
