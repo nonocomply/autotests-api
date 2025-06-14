@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a12f2f6-78c2-4119-a5e1-a7e8b66fc3fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/assertions/courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/exercises/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/exercises/test_exercises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/assertions/exercises.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/courses/courses_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/courses/courses_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/exercises/exercises_schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/assertions/courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/assertions/courses.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

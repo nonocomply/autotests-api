@@ -9,6 +9,7 @@ from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     GetExerciseResponseSchema,
     GetExercisesResponseSchema,
+    CreateExerciseResponseSchema,
 )
 from clients.private_http_builder import (
     get_private_http_client,
@@ -79,9 +80,9 @@ class ExercisesClient(APIClient):
 
     def create_exercise(
         self, request: CreateExerciseRequestSchema
-    ) -> GetExerciseResponseSchema:
+    ) -> CreateExerciseResponseSchema:
         response = self.create_exercise_api(request=request)
-        return GetExerciseResponseSchema.model_validate_json(response.text)
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
     def update_exercise(
         self, exercise_id: str, request: UpdateExerciseRequestSchema

@@ -86,6 +86,14 @@ def assert_create_course_response(
     assert_equal(
         response.course.estimated_time, request.estimated_time, "estimated_time"
     )
+    assert_equal(
+        response.course.created_by_user.id,
+        request.created_by_user_id,
+        "created_by_user_id",
+    )
+    assert_equal(
+        response.course.preview_file.id, request.preview_file_id, "preview_file_id"
+    )
 
 
 if __name__ == "__main__":
