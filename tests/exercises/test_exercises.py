@@ -7,6 +7,8 @@ from clients.exercises.exercises_schema import (
     CreateExerciseRequestSchema,
     CreateExerciseResponseSchema,
     GetExerciseResponseSchema,
+    UpdateExerciseRequestSchema,
+    UpdateExerciseResponseSchema,
 )
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
@@ -14,6 +16,7 @@ from tools.assertions.base import assert_status_code
 from tools.assertions.exercises import (
     assert_create_exercise_response,
     assert_get_exercise_response,
+    assert_update_exercise_response,
 )
 from tools.assertions.files import assert_get_file_response
 from tools.assertions.schema import validate_json_schema
@@ -48,6 +51,21 @@ class TestExercises:
 
         validate_json_schema(
             response.json(), GetExerciseResponseSchema.model_json_schema()
+        )
+
+    def test_update_exercise(
+        self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture
+    ):
+        exercise_id = function_exercise.response.exercise.id
+        request = UpdateExerciseRequestSchema()
+        response = exercises_client.update_exercise_api(exercise_id, request)
+        response_data = UpdateExerciseResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_update_exercise_response(request, response_data)
+
+        validate_json_schema(
+            response.json(), UpdateExerciseResponseSchema.model_json_schema()
         )
 
 

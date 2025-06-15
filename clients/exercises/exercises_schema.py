@@ -63,5 +63,9 @@ class CreateExerciseResponseSchema(BaseModel):
     exercise: ExerciseSchema
 
 
+class UpdateExerciseResponseSchema(BaseModel):
+    exercise: ExerciseSchema
+
+
 if __name__ == "__main__":
     pass
