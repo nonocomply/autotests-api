@@ -1,5 +1,6 @@
 from typing import TypedDict
 
+import allure
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -12,6 +13,7 @@ class PublicUsersClient(APIClient):
     Клиент для работы с методами /api/v1/ysers, которые не требуют авторизации.
     """
 
+    @allure.step("Create user")
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод создает нового пользователя.
