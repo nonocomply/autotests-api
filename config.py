@@ -19,7 +19,7 @@ class TestDataConfig(BaseModel):
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
-        extra="allow",
+        extra='allow',  # Разрешаем дополнительные переменные
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter=".",
@@ -29,6 +29,7 @@ class Settings(BaseSettings):
     http_client: HTTPClientConfig
     allure_results_dir: DirectoryPath
 
+    # Добавили метод initialize
     @classmethod
     def initialize(cls) -> Self:  # Возвращает экземпляр класса Settings
         allure_results_dir = DirectoryPath("./allure-results")  # Создаем объект пути к папке
@@ -40,5 +41,3 @@ class Settings(BaseSettings):
 
 settings = Settings.initialize()
 
-if __name__ == "__main__":
-    print(Settings().http_client.client_url)
